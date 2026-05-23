@@ -1,108 +1,63 @@
-# NumPy Mastery 🚀 Complete NumPy Tutorial & Practice
+# NumPy 🔢
 
-**Hands-on NumPy tutorial** with **Jupyter notebooks** covering **array operations**, **array creation**, **indexing**, **broadcasting**, **mathematical operations**, and **real-world NumPy examples**. Perfect **NumPy crash course** for **data scientists**, **ML engineers**, and **Python developers** mastering **NumPy fundamentals** to **advanced array operations**!
+> Four focused Jupyter notebooks covering NumPy from fundamentals to advanced array operations — creation, indexing, broadcasting, math, views vs copies, and practice exercises.
 
+---
 
-## 🚀 Quick Start
+## Notebooks
+
+| Notebook | Topic | What's Covered |
+|---|---|---|
+| `basic.ipynb` | Fundamentals | `np.array()`, `dtype`, `shape`, `ndim`, `size`, `zeros`, `ones`, `arange` |
+| `Array-operations.ipynb` | Operations | Element-wise math, broadcasting rules, universal functions (ufuncs), manipulation |
+| `practise.ipynb` | Practice | Real-world problems applying everything from basics and operations |
+| `last_part.ipynb` | Advanced | Advanced indexing (boolean, fancy), views vs copies, memory management, stats |
+
+Sample `.npy` arrays are included (`array1.npy`, `array2.npy`, `array3.npy`) — loaded directly in the notebooks so you can run exercises without sourcing external data.
+
+---
+
+## Quick Start
 
 ```bash
 git clone https://github.com/Wcoder547/Numpy.git
 cd Numpy
 pip install numpy jupyter matplotlib
-jupyter notebook basic.ipynb  # Start learning!
+jupyter notebook
 ```
 
-## 📊 What's Included (Complete NumPy Coverage)
+Work through the notebooks in order: `basic` → `Array-operations` → `practise` → `last_part`.
 
-| Notebook | Topic | Key Concepts |
-|----------|-------|--------------|
-| `basic.ipynb` | **NumPy Fundamentals** | Arrays, dtype, shape, size |
-| `Array-operations.ipynb` | **Array Operations** | Math ops, broadcasting, ufuncs |
-| `practise.ipynb` | **Practice Exercises** | Real-world problems |
-| `last_part.ipynb` | **Advanced Topics** | Advanced indexing, views vs copies |
+---
 
-**Sample NumPy arrays included**: `array1.npy`, `array2.npy`, `array3.npy`, `numpy-logo.npy`
+## Skills Covered
 
-## 🔥 Core NumPy Skills Mastered
+- Array creation — `np.zeros`, `np.ones`, `np.arange`, `np.linspace`, `np.random`
+- Array attributes — `shape`, `dtype`, `ndim`, `size`
+- Indexing & slicing — basic, boolean, fancy indexing
+- Broadcasting — rules and real examples
+- Math & stats — element-wise ops, `mean`, `std`, `min`, `max`, matrix operations
+- Manipulation — `reshape`, `transpose`, `concatenate`, `stack`
+- Views vs copies — understanding when NumPy shares memory vs copies it
+- Performance — why NumPy is fast and how to write vectorized code
 
-```
-✅ Array Creation: np.array(), np.zeros(), np.ones(), np.arange()
-✅ Array Attributes: shape, dtype, ndim, size
-✅ Indexing & Slicing: Basic + Advanced (boolean, fancy)
-✅ Mathematical Operations: Element-wise, matrix ops
-✅ Broadcasting Rules & Universal Functions (ufuncs)
-✅ Array Manipulation: reshape, transpose, concatenate
-✅ Views vs Copies (Memory management)
-✅ Statistical Functions: mean, std, min, max
-✅ Real-world datasets & practice problems
-✅ Performance optimization techniques
-```
+---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-```
-Core: NumPy 2.0+, Python 3.11+
-Visualization: Matplotlib (optional)
-Format: Jupyter Notebooks (.ipynb) + .npy files
-```
+- Python 3.11+
+- NumPy 2.0+
+- Jupyter Notebooks
+- Matplotlib (optional, used in some visualizations)
 
-## 📁 Repository Structure
+---
 
-```
-Numpy/
-├── basic.ipynb              # NumPy fundamentals
-├── Array-operations.ipynb   # Complete array operations
-├── practise.ipynb          # Hands-on exercises
-├── last_part.ipynb         # Advanced topics
-├── array1.npy              # Sample dataset 1
-├── array2.npy              # Sample dataset 2
-├── array3.npy              # Sample dataset 3
-├── numpy-logo.npy          # NumPy logo array
-└── README.md
-```
+## About
 
-## 🎓 Learning Path (2-3 Hours to NumPy Mastery)
+NumPy is the foundation everything else in the Python data stack is built on — pandas, scikit-learn, and PyTorch all use NumPy arrays under the hood. Understanding broadcasting, views vs copies, and vectorized operations makes you a faster and more efficient data engineer.
 
-```
-1. basic.ipynb (30min)     → Core concepts
-2. Array-operations.ipynb  → Math + Broadcasting
-3. practise.ipynb         → Apply knowledge
-4. last_part.ipynb        → Advanced techniques
-```
+**Built by [Waseem Akram](https://www.linkedin.com/in/wasim-akram-dev/)** — Full-Stack Developer and DevOps Engineer based in Pakistan, working across the MERN stack, Generative AI integrations, and cloud automation.
 
-## 💡 Quick NumPy Examples
+---
 
-```python
-# Array creation
-import numpy as np
-arr = np.array([1, 2, 3, 4])
-zeros = np.zeros((3, 3))
-
-# Broadcasting
-arr + 10  # [11, 12, 13, 14]
-
-# Statistical operations
-np.mean(arr), np.std(arr), arr.shape
-```
-
-## 🎯 Perfect For
-
-- **Data Science beginners** learning NumPy foundations
-- **ML engineers** needing fast array operations
-- **Python developers** optimizing numerical code
-- **Interview prep** for NumPy questions
-- **Academic projects** requiring array computations
-
-## 🤝 Contributing
-
-```bash
-1. Fork → Clone → Branch
-2. Add notebook → Test → Commit  
-3. Push → PR with description
-4. Follow NumPy style guidelines
-```
-
-## 👨‍💻 Author
-
-**Wasim Akram** – **Data Scientist** | **ML Engineer** | **Python Expert**  
-**Email**: malikwaseemshzad@gmail.com
+*If this helped you, consider giving it a ⭐*
